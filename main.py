@@ -7,4 +7,6 @@ if __name__ == "__main__":
     print(fibonnaci.rec_fib(8))
 
     #Testing prime numbers functions
-    print(prime.lin_prime(15))
+    primes_list = []
+    print(prime.lin_prime(30))
+    print(prime.rec_prime(30, primes_list))
