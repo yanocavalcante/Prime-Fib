@@ -2,4 +2,6 @@ import fibonnaci
 import prime
 
 if __name__ == "__main__":
-    print(fibonnaci.lin_fib(9))
+    #Testing fibonnaci functions
+    print(fibonnaci.lin_fib(8))
+    print(fibonnaci.rec_fib(8))
